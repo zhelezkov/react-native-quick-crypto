@@ -9,7 +9,7 @@
 
 #include <openssl/hmac.h>
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "JSIUtils/MGLJSIMacros.h"
 #include "MGLHmacHostObject.h"
 #else

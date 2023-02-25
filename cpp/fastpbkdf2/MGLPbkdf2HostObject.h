@@ -7,7 +7,7 @@
 
 #include <memory>
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "JSIUtils/MGLSmartHostObject.h"
 #include "fastpbkdf2/fastpbkdf2.h"
 #else

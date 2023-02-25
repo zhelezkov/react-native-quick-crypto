@@ -3,7 +3,7 @@
 //
 #include "MGLCipherHostObject.h"
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "JSIUtils/MGLJSIUtils.h"
 #include "JSIUtils/MGLTypedArray.h"
 #else

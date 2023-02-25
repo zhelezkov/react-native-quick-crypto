@@ -10,7 +10,7 @@
 #include <utility>
 
 #include "MGLKeys.h"
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "JSIUtils/MGLSmartHostObject.h"
 #include "Utils/MGLUtils.h"
 #else

@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "Cipher/MGLCreateCipherInstaller.h"
 #include "Cipher/MGLCreateDecipherInstaller.h"
 #include "Cipher/MGLGenerateKeyPairInstaller.h"

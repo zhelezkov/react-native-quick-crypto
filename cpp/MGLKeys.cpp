@@ -15,7 +15,7 @@
 #include <utility>
 #include <vector>
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "JSIUtils/MGLJSIMacros.h"
 #include "JSIUtils/MGLJSIUtils.h"
 #include "JSIUtils/MGLTypedArray.h"

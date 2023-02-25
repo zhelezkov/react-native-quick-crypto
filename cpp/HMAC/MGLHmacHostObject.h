@@ -13,7 +13,7 @@
 #include <memory>
 #include <string>
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "JSIUtils/MGLSmartHostObject.h"
 #else
 #include "MGLSmartHostObject.h"

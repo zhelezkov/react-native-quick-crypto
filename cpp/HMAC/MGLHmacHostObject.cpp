@@ -1,6 +1,6 @@
 // Copyright 2022 Margelo
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "MGLHmacHostObject.h"
 
 #include "JSIUtils/MGLTypedArray.h"

@@ -15,7 +15,7 @@
 #include <optional>
 #include <string>
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "Utils/MGLUtils.h"
 #else
 #include "MGLUtils.h"

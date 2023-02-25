@@ -21,7 +21,7 @@
 #include "MGLKeys.h"
 #include "MGLPublicCipher.h"
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "JSIUtils/MGLJSIUtils.h"
 #include "JSIUtils/MGLSmartHostObject.h"
 #include "JSIUtils/MGLTypedArray.h"

@@ -15,7 +15,7 @@
 #include <utility>
 
 #include "MGLKeys.h"
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "Utils/MGLUtils.h"
 #else
 #include "MGLUtils.h"

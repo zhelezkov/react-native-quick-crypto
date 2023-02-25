@@ -1,4 +1,4 @@
-#ifdef ANDROID
+#ifdef __ANDROID__
 // LOGS ANDROID
 #include <android/log.h>
 #define LOG_TAG "react-native-quick-crypto"

@@ -15,7 +15,7 @@
 
 #include "MGLKeys.h"
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "Cipher/MGLRsa.h"
 #include "JSIUtils/MGLSmartHostObject.h"
 #include "Utils/MGLUtils.h"

@@ -5,7 +5,7 @@
 #include <optional>
 
 #include "MGLKeys.h"
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "JSIUtils/MGLJSIUtils.h"
 #include "JSIUtils/MGLTypedArray.h"
 #include "Utils/MGLUtils.h"

@@ -1,7 +1,7 @@
 #include "MGLVerifyInstaller.h"
 
 #include "MGLSignHostObjects.h"
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "JSIUtils/MGLJSIMacros.h"
 #else
 #include "MGLJSIMacros.h"

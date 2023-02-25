@@ -4,7 +4,7 @@
 
 #include "MGLRandomHostObject.h"
 
-#ifdef ANDROID
+#ifdef __ANDROID__
 #include "JSIUtils/MGLTypedArray.h"
 #else
 #include "MGLTypedArray.h"
